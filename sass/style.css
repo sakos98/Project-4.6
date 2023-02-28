@@ -40,3 +40,39 @@ body {
     align-content: space-between;
     color: #fff;
 }
+.servis {
+    background-color: rgb(245, 87, 87);
+}
+
+.ikons {
+    display: flex;
+    flex: 0 0 33.333%;
+    height: 300px;
+    text-align: center;
+}
+
+.servis-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 75px 0;
+}
+.ikon-shop {
+    border-radius: 50px;
+    border: 2px solid yellow;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ikon-shop i{
+    font-size: 45px;
+    color: yellow;
+}
+.ikon-wrapper {
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
