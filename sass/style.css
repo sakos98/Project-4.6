@@ -61,6 +61,12 @@ body {
     flex-direction: column;
     padding: 75px 0;
 }
+.servis-description h1 {
+    font-family: 'Roboto', sans-serif;
+}
+.servis-description h3 {
+    font-family: 'Montserrat', sans-serif;
+}
 .ikon-shop {
     border-radius: 50px;
     border: 2px solid yellow;
@@ -82,7 +88,7 @@ body {
             /* Portfolio */
 .portfolio {
     height: 100%;
-    background-color: rgb(252, 230, 230, 0.705);
+    background-color: lightgrey;
 }
 .portfolio-boxes {
     display: flex;
@@ -114,4 +120,59 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+.portfolio-box-description h3{
+    font-family: 'Roboto', sans-serif;
+}
+.portfolio-box-description h4{
+    font-weight:300;
+    font-family: 'Montserrat', sans-serif;
+}
+        /* Stopka*/
+.stopka {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    height: 75px;
+    flex: 0 0 44%;
+}
+.items-stopka {
+    position: absolute;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.items-stopka .logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.items-stopka .items-media ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.items p{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.items-media {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.items-media a{
+    padding-right: 10px;
+    color: black;
 }
