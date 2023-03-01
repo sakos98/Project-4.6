@@ -2,6 +2,7 @@ body {
     width: 100%;
     height: 100%;
 }
+            /* Navbar*/
 .navbars {
     background-image: url("../images/photo-middle.jpg");
     background-size: cover;
@@ -40,14 +41,16 @@ body {
     align-content: space-between;
     color: #fff;
 }
+            /* Services */
 .servis {
-    background-color: rgb(245, 87, 87);
+    background-color: rgb(167, 154, 139);
+    height: 100%;
 }
 
 .ikons {
     display: flex;
     flex: 0 0 33.333%;
-    height: 300px;
+    height: 100%;
     text-align: center;
 }
 
@@ -75,4 +78,40 @@ body {
     padding-bottom: 25px;
     display: flex;
     justify-content: center;
+}
+            /* Portfolio */
+.portfolio {
+    height: 100%;
+    background-color: rgb(252, 230, 230, 0.705);
+}
+.portfolio-boxes {
+    display: flex;
+    flex: 0 0 55%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.portfolio-box {
+    background-color: #fff;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+.portfolio-position {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-image img {
+    height: 370px;
+    width: 330px;
+}
+.portfolio-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px 0 75px;
+}
+.portfolio-box-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
