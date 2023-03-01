@@ -2,25 +2,28 @@ body {
     width: 100%;
     height: 100%;
 }
-            /* Navbar*/
+
+/* Navbar*/
 .navbars {
     background-image: url("../images/photo-middle.jpg");
     background-size: cover;
     height: 900px;
 }
-.navbar a{
+
+.navbar a {
     padding: 25px;
     margin-left: 100px;
     color: #fff;
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
-} 
+}
+
 .navbar .right {
     display: flex;
     justify-content: flex-end;
 }
 
-.navbar .right a{
+.navbar .right a {
     font-family: Arial;
     font-size: 20px;
 }
@@ -41,7 +44,8 @@ body {
     align-content: space-between;
     color: #fff;
 }
-            /* Services */
+
+/* Services */
 .servis {
     background-color: rgb(167, 154, 139);
     height: 100%;
@@ -49,9 +53,16 @@ body {
 
 .ikons {
     display: flex;
-    flex: 0 0 33.333%;
+    flex: 0 0 33%;
     height: 100%;
     text-align: center;
+    padding: 0 30px;
+}
+
+.ikon-description {
+    color: #fff;
+    padding: 40px;
+
 }
 
 .servis-description {
@@ -61,12 +72,15 @@ body {
     flex-direction: column;
     padding: 75px 0;
 }
+
 .servis-description h1 {
     font-family: 'Roboto', sans-serif;
 }
+
 .servis-description h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
 .ikon-shop {
     border-radius: 50px;
     border: 2px solid yellow;
@@ -76,31 +90,37 @@ body {
     justify-content: center;
     align-items: center;
 }
-.ikon-shop i{
+
+.ikon-shop i {
     font-size: 45px;
     color: yellow;
 }
+
 .ikon-wrapper {
     padding-bottom: 25px;
     display: flex;
     justify-content: center;
 }
-            /* Portfolio */
+
+/* Portfolio */
 .portfolio {
     height: 100%;
     background-color: lightgrey;
 }
+
 .portfolio-boxes {
     display: flex;
     flex: 0 0 55%;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .portfolio-box {
     background-color: #fff;
     margin-left: 10px;
     margin-bottom: 50px;
 }
+
 .portfolio-position {
     display: flex;
     justify-content: center;
@@ -110,25 +130,30 @@ body {
     height: 370px;
     width: 330px;
 }
+
 .portfolio-description {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 150px 0 75px;
 }
+
 .portfolio-box-description {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.portfolio-box-description h3{
+
+.portfolio-box-description h3 {
     font-family: 'Roboto', sans-serif;
 }
-.portfolio-box-description h4{
-    font-weight:300;
+
+.portfolio-box-description h4 {
+    font-weight: 300;
     font-family: 'Montserrat', sans-serif;
 }
-        /* Stopka*/
+
+/* Stopka*/
 .stopka {
     margin: 0;
     padding: 0;
@@ -137,6 +162,7 @@ body {
     height: 75px;
     flex: 0 0 44%;
 }
+
 .items-stopka {
     position: absolute;
     padding: 30px;
@@ -145,6 +171,7 @@ body {
     width: 100%;
     box-sizing: border-box;
 }
+
 .items-stopka .logo {
     font-size: 30px;
     font-weight: bold;
@@ -152,16 +179,18 @@ body {
     color: black;
 }
 
-.items-stopka .items-media ul{
+.items-stopka .items-media ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.items p{
+
+.items p {
     display: flex;
     align-items: center;
     padding-right: 100px;
 }
+
 .items-media {
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +201,8 @@ body {
     font-size: 40px;
     padding-left: 20px;
 }
-.items-media a{
+
+.items-media a {
     padding-right: 10px;
     color: black;
 }
